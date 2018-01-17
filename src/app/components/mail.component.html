@@ -1,0 +1,20 @@
+
+<div class="container">
+   
+  <div *ngIf="mails">
+    <table class="table">
+      <tbody>
+        <div *ngFor="let mail of mails">
+          <tr class="row">
+            <td>
+              <font size="1"><b>{{mail.senderEmail.substring(0,mail.senderEmail.indexOf('<'))}} |</b> <b>{{mail.subject}} - </b> {{mail.content | slice:0:100}} &nbsp;&nbsp;&nbsp;<b>{{mail.receiptDate}}</b>
+             
+              </font>
+              <span class="badge badge-primary">{{mail.receiverEmail.substring(0,mail.receiverEmail.indexOf("@"))}}</span>
+            </td>
+          </tr>
+        </div>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+{
+    "mails": [
+        {
+            "subject": "Interview",
+            "content": "Hello your interview will be tomorrow at 9AM in London",
+            "senderEmail": "mohamedmaalej.sde",
+            "receiverEmail": "maalejmedti",
+            "receiptTime": "15:30"
+        },
+        {
+            "subject": "Interview",
+            "content": "Hello your interview will be tomorrow at 9AM in London",
+            "senderEmail": "mohamedmaalej.sde",
+            "receiverEmail": "maalejmedti",
+            "receiptTime": "15:30"
+        },
+        {
+            "subject": "Interview",
+            "content": "Hello your interview will be tomorrow at 9AM in London",
+            "senderEmail": "mohamedmaalej.sde",
+            "receiverEmail": "maalejmedti",
+            "receiptTime": "15:30"
+        }
+    ]
+}
