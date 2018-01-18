@@ -1,0 +1,7 @@
+<div class="container">
+    <div *ngIf="mail">
+        {{mail.content}}
+    </div>
+    <button class="btn btn-primary" routerLink="/gmails">Return to mails</button>
+</div>
+<router-outlet></router-outlet>
